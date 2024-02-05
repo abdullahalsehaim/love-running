@@ -96,6 +96,24 @@ main {
     position: relative;
 }
 
+#circle-cover-bg {
+    background: url("../images/circular_running_image.webp") no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image circular */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-item: center;
+    justify-content: center;
+
+}
+
 #reasons {
     width: 90%;
     margin: 20px auto;
