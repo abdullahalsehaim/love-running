@@ -209,6 +209,24 @@ hr {
     line-height: 0;
 }
 
+/*Signup Page */
+#signup {
+    background: url("../images/signup-image.webp") no-repeat center center/cover;
+    background-position: 75%;
+    flex-grow: 1;
+}
+#signup h2 {
+    color: #fafafa;
+    margin: 20px 10%;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    margin: 30px;
+}
+
+
 /* Media query: large or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
     #photos {
